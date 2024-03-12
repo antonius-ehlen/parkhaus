@@ -20,10 +20,12 @@ interface Parkhaus {
     aktuelleZeit: number,
     preisProMin: number
 }
+
 interface Etage {
     anzPlaetze: number,
     plaetze: Platz[],
 }
+
 interface Platz {
     nummer: number,
     frei: boolean,
